@@ -1,0 +1,16 @@
+{
+     "customManagers": [
+      {
+        "description": "Update resticprofile version",
+        "customType": "regex",
+        "managerFilePatterns": [
+          "/^(defaults|vars)\\/[^\\/]+\\.yml$/"
+        ],
+        "matchStrings": [
+          "/\\sresticprofile_version:\\s+(?<currentValue>.*?)\\s/"
+        ],
+        "packageNameTemplate": "creativeprojects/resticprofile",
+        "datasourceTemplate": "github-releases"
+      }
+    ]
+}
