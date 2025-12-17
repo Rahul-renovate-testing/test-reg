@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2025 Alexander Dahl <alex@netz39.de>
+# SPDX-License-Identifier: GPL-3.0-only
+---
+# defaults file for resticprofile
+resticprofile_version: v0.32.0
