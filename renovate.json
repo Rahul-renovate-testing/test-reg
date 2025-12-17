@@ -7,7 +7,7 @@
           "/^(defaults|vars)\\/[^\\/]+\\.yml$/"
         ],
         "matchStrings": [
-          "/\\sresticprofile_version:\\s+(?<currentValue>.*?)\\s/"
+          "/resticprofile_version:\\s+(?<currentValue>.*)/"
         ],
         "packageNameTemplate": "creativeprojects/resticprofile",
         "datasourceTemplate": "github-releases"
